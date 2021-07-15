@@ -1,0 +1,47 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: space-evenly;
+}
+
+.root div {
+  margin: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  /* box-shadow: 5px 5px tomato; */
+}
+
+.root div:nth-of-type(2) img {
+  width: 50px;
+  box-sizing: border-box;
+}
+
+.root div:nth-of-type(3) div {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 0px;
+  /* box-sizing: border-box; */
+  /* border: 3px solid black; */
+}
+
+.root div:nth-of-type(4) div {
+  width: 50px;
+  height: 3px;
+  background-color: black;
+  /* margin-top: 30px; */
+  border-radius: 0px;
+}
+
+@media (max-width: 820px) {
+  .root {
+    display: flex;
+    flex-direction: row;
+  }
+  .labelFigure {
+    display: none;
+  }
+}

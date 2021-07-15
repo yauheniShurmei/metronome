@@ -1,0 +1,4 @@
+export const CHOOSE_TIMESIGNATURE = "CHOOSE_TIMESIGNATURE";
+export const CHANGE_TEMPO = "CHANGE_TEMPO";
+export const CHOOSE_FIGURE = "CHOOSE_FIGURE";
+export const ISPLAY = "ISPLAY";
