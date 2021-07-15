@@ -24,7 +24,7 @@ const MetroFigure = () => {
         }
         onClick={() => chooseMetronomeFigure(0)}
       >
-        <img src="../../icons/metronome 1.png" />
+        <img src="../../icons/metronome 1.png" alt="metronome icon" />
       </div>
       <div
         style={

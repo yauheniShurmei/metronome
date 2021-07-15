@@ -20,6 +20,8 @@ const MetronomeSquare = (props) => {
       addClass = classes.left;
       styles.push(addClass);
       break;
+    default:
+      break;
   }
 
   return <div className={styles.join(" ")}></div>;

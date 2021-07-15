@@ -1,10 +1,9 @@
 import classes from "./MetroElement.module.css";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import Tempo from "../Tempo/Tempo";
 import MetroFigure from "../MetroFigure/MetroFigure";
 import { useEffect, useState } from "react";
 import MetronomeStandart from "../MetronomeStandart/MetronomeStandart";
-import * as actionsTypes from "../store/actions";
 import useSound from "use-sound";
 import metroSound from "../sounds/metronome_sound.mp3";
 import MetronomeSquare from "../MetronomeSquare/MetronomeSquare";
@@ -44,6 +43,8 @@ const MetroElement = (props) => {
         />
       );
       break;
+    default:
+      break;
   }
 
   useEffect(() => {
@@ -74,6 +75,8 @@ const MetroElement = (props) => {
             counter += 1;
             setCounter((counter) => counter + 1);
             setIsLeft((isLeft) => !isLeft);
+            break;
+          default:
             break;
         }
       }, secundsToOneBit);

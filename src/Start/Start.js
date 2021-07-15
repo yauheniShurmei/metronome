@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import classes from "./Start.module.css";
 import * as actionTypes from "../store/actions";

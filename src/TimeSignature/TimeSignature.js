@@ -1,7 +1,6 @@
 import classes from "./TimeSignature.module.css";
-import { connect, useDispatch } from "react-redux";
+import { connect } from "react-redux";
 import * as actionsType from "../store/actions";
-import { useState } from "react";
 
 const TimeSignature = (props) => {
   let style = [classes.time_signature];
