@@ -48,7 +48,7 @@ const MetroElement = (props) => {
   }
 
   useEffect(() => {
-    counter = 0;
+    let counter = 0;
     if (isPlay) {
       const interval = setInterval(() => {
         switch (timeSignatures) {
