@@ -83,7 +83,7 @@ const MetroElement = (props) => {
 
       return () => clearInterval(interval);
     }
-  }, [isPlay]);
+  }, [isPlay, play, playClassicSound, secundsToOneBit, timeSignatures]);
 
   return (
     <div className={classes.metro_element_root}>
