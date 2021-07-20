@@ -26,4 +26,7 @@
   .tempo {
     margin: 0px 0px;
   }
+  .tempo label {
+    display: none;
+  }
 } ;

@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from "react-redux";
-import "./Tempo.css";
+import classes from "./Tempo.module.css";
 import * as actionsType from "../store/actions";
 
 const Tempo = () => {
@@ -7,7 +7,7 @@ const Tempo = () => {
   const dispatch = useDispatch();
 
   return (
-    <div className="tempo">
+    <div className={classes.tempo}>
       <label>TEMPO</label>
       <input
         type="number"
