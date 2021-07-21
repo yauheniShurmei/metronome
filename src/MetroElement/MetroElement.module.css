@@ -11,62 +11,6 @@
   left: 100px;
 }
 
-.metro_elements {
-  height: 20rem;
-  width: auto;
-  display: flex;
-  flex: 1;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  transition: all 1s;
-}
-
-.element {
-  width: 500px;
-  height: 5px;
-  background-color: black;
-  margin: 20px auto;
-  transform: translate(20px, 0px) rotate(90deg);
-}
-
-.usual_metronome {
-  width: 300px;
-  height: 5px;
-  background-color: black;
-  transition: all 1s;
-  animation: mymove 1s infinite;
-  animation: mymove2 2s infinite;
-}
-
-.left {
-  transform: translate(95px, 35px) rotate(40deg);
-}
-.right {
-  transform: translate(-95px, 35px) rotate(-40deg);
-}
-
-.go {
-  animation: mymove 5s infinite;
-}
-
-@keyframes mymove {
-  from {
-    transform: translate(-95px, 35px) rotate(40deg);
-  }
-  to {
-    transform: translate(95px, 35px) rotate(130deg);
-  }
-}
-@keyframes mymove2 {
-  from {
-    transform: translate(95px, 35px) rotate(130deg);
-  }
-  to {
-    transform: translate(-95px, 35px) rotate(40deg);
-  }
-}
-
 .metronome_place {
   height: 23rem;
   width: auto;
