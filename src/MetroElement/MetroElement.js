@@ -92,6 +92,7 @@ const MetroElement = (props) => {
         <MetroFigure />
       </div>
       <div className={classes.metronome_place}>{elements}</div>
+      <div className={classes.third_element}></div>
     </div>
   );
 };

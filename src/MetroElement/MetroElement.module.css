@@ -1,14 +1,12 @@
 .metro_element_root {
   display: flex;
-  position: relative;
+  justify-content: space-evenly;
 }
 
 .tempo_figure_element {
   display: flex;
   flex-direction: column;
-  position: absolute;
-  top: 0px;
-  left: 100px;
+  flex: 1;
 }
 
 .metronome_place {
@@ -20,16 +18,22 @@
   flex-direction: column;
   justify-content: center;
   transition: all 1s;
+  background-image: url("../assets/metronome1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.third_element {
+  flex: 1;
 }
 
 @media (max-width: 820px) {
   .tempo_figure_element {
-    position: inherit;
+    /* position: inherit; */
     flex-direction: row;
     margin-bottom: 20px;
     justify-content: center;
     align-items: center;
-    left: 0px;
   }
   .metro_element_root {
     flex-direction: column;

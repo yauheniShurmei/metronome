@@ -24,7 +24,7 @@ const MetroFigure = () => {
         }
         onClick={() => chooseMetronomeFigure(0)}
       >
-        <img src="../../icons/metronome 1.png" alt="metronome icon" />
+        <img src="../../icons/metronome1.png" alt="metronome icon" />
       </div>
       <div
         style={
@@ -36,16 +36,6 @@ const MetroFigure = () => {
       >
         <div></div>
       </div>
-      {/* <div
-        style={
-          onFigure === 2
-            ? { border: "2px solid cadetblue", boxShadow: "5px 5px orange" }
-            : null
-        }
-        onClick={() => chooseMetronomeFigure(2)}
-      >
-        <div></div>
-      </div> */}
     </div>
   );
 };
