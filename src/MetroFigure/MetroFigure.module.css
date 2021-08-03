@@ -8,8 +8,7 @@
 .rootSection div {
   width: 5rem;
   height: 5rem;
-  margin: 5px;
-  /* padding: 5px; */
+  margin: auto;
   box-sizing: border-box;
   border-radius: 5px;
 }

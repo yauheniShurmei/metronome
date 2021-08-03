@@ -7,7 +7,15 @@ const Tempo = () => {
   const dispatch = useDispatch();
 
   return (
-    <div className={classes.tempoElement}>
+    <div
+      className={classes.tempoElement}
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
       <label>TEMPO</label>
       <input
         type="number"

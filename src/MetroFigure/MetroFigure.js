@@ -27,7 +27,7 @@ const MetroFigure = () => {
       >
         <img src="../../icons/metronome1.png" alt="metronome icon" />
       </div>
-      <div
+      {/* <div
         className={classes.squareFigure}
         style={
           onFigure === 1
@@ -37,7 +37,7 @@ const MetroFigure = () => {
         onClick={() => chooseMetronomeFigure(1)}
       >
         <div></div>
-      </div>
+      </div> */}
     </section>
   );
 };
