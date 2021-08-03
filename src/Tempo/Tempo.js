@@ -7,7 +7,7 @@ const Tempo = () => {
   const dispatch = useDispatch();
 
   return (
-    <div className={classes.tempo}>
+    <div className={classes.tempoElement}>
       <label>TEMPO</label>
       <input
         type="number"

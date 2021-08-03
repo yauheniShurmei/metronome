@@ -14,9 +14,10 @@ const MetroFigure = () => {
   };
 
   return (
-    <div className={classes.root}>
+    <section className={classes.rootSection}>
       <div className={classes.labelFigure}>FIGURE</div>
       <div
+        className={classes.metronomeFigure}
         style={
           onFigure === 0
             ? { border: "2px solid cadetblue", boxShadow: "5px 5px orange" }
@@ -27,6 +28,7 @@ const MetroFigure = () => {
         <img src="../../icons/metronome1.png" alt="metronome icon" />
       </div>
       <div
+        className={classes.squareFigure}
         style={
           onFigure === 1
             ? { border: "2px solid cadetblue", boxShadow: "5px 5px orange" }
@@ -36,7 +38,7 @@ const MetroFigure = () => {
       >
         <div></div>
       </div>
-    </div>
+    </section>
   );
 };
 
